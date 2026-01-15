@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Medical-Report-Simplifier-for-Rural-Patients/static/css/main.79b99b42.css",
+    "main.js": "/Medical-Report-Simplifier-for-Rural-Patients/static/js/main.fca215dd.js",
+    "static/js/453.6b805f76.chunk.js": "/Medical-Report-Simplifier-for-Rural-Patients/static/js/453.6b805f76.chunk.js",
+    "index.html": "/Medical-Report-Simplifier-for-Rural-Patients/index.html",
+    "main.79b99b42.css.map": "/Medical-Report-Simplifier-for-Rural-Patients/static/css/main.79b99b42.css.map",
+    "main.fca215dd.js.map": "/Medical-Report-Simplifier-for-Rural-Patients/static/js/main.fca215dd.js.map",
+    "453.6b805f76.chunk.js.map": "/Medical-Report-Simplifier-for-Rural-Patients/static/js/453.6b805f76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79b99b42.css",
+    "static/js/main.fca215dd.js"
+  ]
+}
