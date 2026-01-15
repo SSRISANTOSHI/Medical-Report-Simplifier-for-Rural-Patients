@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Medical Report Simplifier for Rural Patients
 
 An AI-powered system that converts complex medical lab reports into simple, patient-friendly explanations using OCR and Large Language Models.
@@ -133,3 +134,6 @@ Medical Report Simplifier for Rural Patients/
     │   └── ...
     └── package.json
 ```
+=======
+# Medical-Report-Simplifier-for-Rural-Patients
+>>>>>>> 04c02b430b15bd38eef80a6f6fc78db9a34d8cb3
