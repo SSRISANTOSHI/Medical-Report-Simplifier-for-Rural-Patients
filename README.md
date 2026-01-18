@@ -137,3 +137,6 @@ Medical Report Simplifier for Rural Patients/
 =======
 # Medical-Report-Simplifier-for-Rural-Patients
 >>>>>>> 04c02b430b15bd38eef80a6f6fc78db9a34d8cb3
+
+deployed streamlit link: https://ai-menstrual-health-predictor-muwajkbozbdbbxzpiunpne.streamlit.app
+
