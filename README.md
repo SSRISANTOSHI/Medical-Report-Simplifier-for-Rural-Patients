@@ -83,33 +83,21 @@ python setup_database.py
 python app.py
 ```
 
-### Frontend Setup
+### To run Frontend 
 
-1. Navigate to the frontend directory:
-```bash
-cd frontend
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the React development server:
-```bash
-npm start
+streamlit run streamlit_app.py
 ```
 
 ## Usage
 
 1. Start both backend (port 5000) and frontend (port 3000)
-2. Open http://localhost:3000 in your browser
+2. Open http://localhost:8501 in your browser
 3. Upload a medical report (PDF or image)
 4. Get simplified explanations and lifestyle tips
 
 ## Technology Stack
 
-- **Frontend**: React.js, CSS3
+- **Frontend**:streamlit
 - **Backend**: Python Flask
 - **OCR**: Tesseract OCR
 - **AI**: OpenAI GPT-3.5-turbo
@@ -122,21 +110,10 @@ npm start
 ## Project Structure
 
 ```
-Medical Report Simplifier for Rural Patients/
-├── backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── .env.example
-└── frontend/
-    ├── src/
-    │   ├── App.js
-    │   ├── App.css
-    │   └── ...
-    └── package.json
+
 ```
 =======
-# Medical-Report-Simplifier-for-Rural-Patients
->>>>>>> 04c02b430b15bd38eef80a6f6fc78db9a34d8cb3
+
 
 
 
