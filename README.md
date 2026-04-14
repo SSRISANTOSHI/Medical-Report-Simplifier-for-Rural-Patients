@@ -2,7 +2,7 @@
 # Medical Report Simplifier for Rural Patients
 
 An AI-powered system that converts complex medical lab reports into simple, patient-friendly explanations using OCR and Large Language Models.
-
+deployed link: https://medical-report-simplifier-for-rural-patients.streamlit.app/
 ## Features
 
 - 📄 Upload PDF or image files of medical reports
