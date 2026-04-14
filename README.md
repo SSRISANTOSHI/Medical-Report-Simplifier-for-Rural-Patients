@@ -139,3 +139,23 @@ Medical Report Simplifier for Rural Patients/
 >>>>>>> 04c02b430b15bd38eef80a6f6fc78db9a34d8cb3
 
 
+
+
+## 🚀 Project Roadmap
+
+### Phase 1
+- OCR extraction
+- Basic simplification
+
+### Phase 2
+- RAG improvements
+- Risk detection
+
+### Phase 3
+- Multilingual support
+- Voice interface
+
+### Phase 4
+- Advanced AI features
+
+
