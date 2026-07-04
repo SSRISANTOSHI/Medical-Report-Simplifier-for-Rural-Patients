@@ -37,16 +37,47 @@ class MedicalReportProcessor:
     def extract_text_from_image(self, image_path):
         """Extract text from image using OCR"""
         try:
+            # Verify that the file is a valid image
+            with Image.open(image_path) as img:
+                img.verify()
+
+            # Reopen the image after verification
             image = Image.open(image_path)
             # Enhance image for better OCR
             image = image.convert('RGB')
             text = pytesseract.image_to_string(image, config='--psm 6')
             return text
+        
+        except (Image.UnidentifiedImageError, OSError):
+            return f"Error: '{image_path}' is not a valid image file."
+        
         except Exception as e:
             return f"Error extracting text: {str(e)}"
     
     def extract_text_from_pdf(self, pdf_path):
         """Extract text from PDF using OCR"""
+
+        # Check if file exists
+        if not os.path.isfile(pdf_path):
+            print(f"Error: File '{pdf_path}' does not exist.")
+            return None
+        
+        # Check file extension
+        if os.path.splitext(pdf_path)[1].lower() != ".pdf":
+            print(f"Error: '{pdf_path}' is not a PDF file.")
+            return None
+
+        # Check PDF signature
+        try:
+            with open(pdf_path, "rb") as f:
+                if f.read(5) != b"%PDF-":
+                    print(f"Error: '{pdf_path}' is not a valid PDF file.")
+                    return None
+        except OSError as e:
+            print(f"Error opening file: {e}")
+            return None
+
+
         try:
             pages = pdf2image.convert_from_path(pdf_path, dpi=300)
             text = ""
